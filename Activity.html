@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+</head>
+<body>
+    <h1>Boxes Order Form</h1>
+<form style="border: 1px solid black; padding: 20px; width: 25%">
+    Name:<input type="text"></td>
+    <br>
+    <br>
+    Email: <input type="text"></td>
+    <br>
+    <br>
+    Address: <textarea name="" id="" cols="30" rows="10"></textarea></td>
+</form>
+</table>
+<br>
+<br>
+<br>
+    <table border="1">
+        <thead>
+            <th>Product</th>
+            <th>Part Number</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Subtotal</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EconoBox</td>
+                <td>LB100</td>
+                <td><input type="number"></td>
+                <td>R5</td>
+                <td><input type="number" placeholder="0"></td>
+            </tr>
+            <tr>
+                <td>Standard Box</td>
+                <td>L200</td>
+                <td><input type="number"></td>
+                <td>R10</td>
+                <td><input type="number" placeholder="0"></td>
+            </tr>
+            <tr>
+                <td>Premium Box</td>
+                <td>LB300</td>
+                <td><input type="number"></td>
+                <td>R15</td>
+                <td><input type="number" placeholder="0"></td>
+            </tr>
+            <tr>
+                <td>Deluxe Box</td>
+                <td>LB400</td>
+                <td><input type="number"></td>
+                <td>R20</td>
+                <td><input type="number"placeholder="0"></td>
+            </tr>
+            <tr>
+                <td>Super Deluxe Box</td>
+                <td>LB500</td>
+                <td><input type="number"></td>
+                <td>R30</td>
+                <td><input type="number"placeholder="0"></td>
+                
+            </tr>
+            <tr>
+                <td colspan="5" align="right">Total <input type="number" placeholder="0"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <table border="1">
+        <thead>
+            <Td colspan="4">Card Type:</Td>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="radio">Mastercard</td>
+                <td>Card Number:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="radio">Visa</td>
+                <td><label for="expiry"> Expiry Date:</label></td>
+                <td><input type="date" id="expiry" name="expiry"></td>
+            </tr>
+            <tr>
+                 <td><input type="radio">American Express</td>
+            </tr>
+            <tr>
+             <td><input type="radio">Diners Club</td>
+            </tr>
+        
+        </tbody>
+    </table>
+    <br>
+    <br>
+
+    <button>Send Order</button>
+    <button>Clear Form</button>
+</body>
+</html>
